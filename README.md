@@ -15,7 +15,7 @@ $ make install
 
 ### Clone procman
 ```
-$ git clone http://github.com/ARG-NCTU/procman
+$ git clone https://github.com/DiaboloKiat/procman.git
 $ cd procman
 $ mkdir build
 $ cd build
