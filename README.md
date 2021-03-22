@@ -22,3 +22,13 @@ $ cd build
 $ cmake ..
 $ make install
 ```
+
+### bot-procman-sheriff
+```
+$ cd ~/Seadrone/procman/procman/build/python
+```
+Revise bot-procman-sheriff
+```
+export PYTHONPATH="${PYTHONPATH}:/home/diabolokiat/Seadrone/procman/procman/build/lib/python2.7/dist-packages:/usr/local/lib/python2.7/dist-packages"
+exec "/usr/bin/python" -m bot_procman.sheriff_gtk.sheriff_gtk "$@"
+```
