@@ -10,7 +10,7 @@ $ cd lcm
 $ mkdir build
 $ cd build
 $ cmake ..
-$ make install
+$ sudo make install
 ```
 
 ### Clone procman
@@ -20,7 +20,7 @@ $ cd procman
 $ mkdir build
 $ cd build
 $ cmake ..
-$ make install
+$ sudo make install
 ```
 
 ### bot-procman-sheriff
