@@ -23,12 +23,16 @@ $ cmake ..
 $ sudo make install
 ```
 
-### bot-procman-sheriff
+### Basic Tools
 ```
-$ cd ~/Seadrone/procman/procman/build/python
+$ sudo apt-get install python-gobject
+$ sudo apt-get install python-gtk2
+$ sudo apt-get install python-tk
+$ sudo apt-get install libcanberra-gtk-module
+$ sudo apt-get install libcanberra-gtk3-module
 ```
-Revise bot-procman-sheriff
+
+### Test Run
 ```
-export PYTHONPATH="${PYTHONPATH}:/home/diabolokiat/Seadrone/procman/procman/build/lib/python2.7/dist-packages:/usr/local/lib/python2.7/dist-packages"
-exec "/usr/bin/python" -m bot_procman.sheriff_gtk.sheriff_gtk "$@"
+$ bot-procman-sheriff -l
 ```
